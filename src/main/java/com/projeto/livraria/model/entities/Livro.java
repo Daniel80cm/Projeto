@@ -27,22 +27,4 @@ public class Livro {
     private String autor;
     private BigDecimal preco;
 
-    public String getTitulo() {
-        return this.titulo;
-       }
-       public String getAutor() {
-        return this.autor;
-       }
-       public BigDecimal getPreco() {
-        return this.preco;
-       }
-       public void setTitulo(String titulo) {
-         this.titulo=titulo;
-       }
-       public void setAutor(String autor) {
-        this.autor=autor;
-      }
-      public void setPreco(BigDecimal preco) {
-        this.preco=preco;
-      }
 }
